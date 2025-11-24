@@ -1,78 +1,42 @@
 <header style="display:flex; justify-content:center; align-items:center; padding:20px; font-family:Arial; background:black; color:white; position:relative;">
-    <h1 style="margin:0;">Through a Lens</h1>
-    <nav style="position:absolute; right:20px;">
-        <a href="portfolio.html" style="color:white; text-decoration:none; font-size:18px;">Portfolio</a>
+    <nav style="position:absolute; left:20px; display:flex; gap:10px;">
+        <a href="index.html" style="color:white; text-decoration:none; font-size:18px; border:1px solid white; padding:5px 10px; border-radius:5px;">EN</a>
+    </nav>
+    <h1 style="margin:0;">GT Photography</h1>
+    <nav style="position:absolute; right:20px; display:flex; gap:10px;">
+        <a href="portfolio_fr.html" style="color:white; text-decoration:none; font-size:18px;">Portfolio</a>
     </nav>
 </header>
 
-<!-- HOME PAGE -->
+<!-- PAGE D'ACCUEIL -->
 <div class="container" id="home" style="padding:20px; font-family:Arial;">
-    <h2>Home</h2>
+  
     <div class="portfolio-grid" style="display:grid; grid-template-columns:repeat(2, 1fr); gap:15px;">
         <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Nature" style="width:100%; height:220px; object-fit:cover; border-radius:10px;">
         <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Portrait" style="width:100%; height:220px; object-fit:cover; border-radius:10px;">
-        <img src="https://images.unsplash.com/photo-1519744346363-66a5cd877091" alt="Wedding" style="width:100%; height:220px; object-fit:cover; border-radius:10px;">
-        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="City" style="width:100%; height:220px; object-fit:cover; border-radius:10px;">
+        <img src="https://images.unsplash.com/photo-1519744346363-66a5cd877091" alt="Mariage" style="width:100%; height:220px; object-fit:cover; border-radius:10px;">
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="Ville" style="width:100%; height:220px; object-fit:cover; border-radius:10px;">
     </div>
-    <a href="portfolio.html" style="display:block; margin-top:20px; text-align:center; color:white; text-decoration:none; font-weight:bold;">View Full Portfolio</a>
+    <a href="portfolio_fr.html" style="display:block; margin-top:20px; text-align:center; color:white; text-decoration:none; font-weight:bold;">Voir le portfolio complet</a>
 </div>
 
-<!-- SERVICES SECTION -->
+<!-- SECTION SERVICES -->
 <div class="container services" id="services" style="padding:20px; font-family:Arial;">
     <h2>Services</h2>
-    <p>I offer professional photography services for:</p>
+    <p>Je propose des services de photographie professionnels pour :</p>
     <ul style="list-style:none; padding:0;">
-        <li>✔ Weddings</li>
+        <li>✔ Mariages</li>
         <li>✔ Portraits</li>
-        <li>✔ Events</li>
-        <li>✔ Travel & Lifestyle</li>
+        <li>✔ Événements</li>
+        <li>✔ Voyage & Lifestyle</li>
     </ul>
 </div>
 
-<!-- CONTACT SECTION -->
+<!-- SECTION CONTACT -->
 <div class="container" id="contact" style="padding:20px; font-family:Arial;">
     <h2>Contact</h2>
-    <p>You can reach me via:</p>
     <ul style="list-style:none; padding:0;">
-        <li>📷 Instagram: <a href="https://instagram.com/yourprofile" target="_blank">@yourprofile</a></li>
-        <li>📧 Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+        <li>📷 Instagram: <a href="https://www.instagram.com/georges.jorje/" target="_blank">GT_Photography</a></li>
+        <li>📧 Email: <a href="mailto:georges.tsolakis@icloud.com">georges.tsolakis@icloud.com</a></li>
     </ul>
 </div>
-
-<!-- PORTFOLIO PAGE -->
-<!-- Create a separate file named portfolio.html with this content -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Through a Lens</title>
-    <style>
-        body { margin:0; font-family:Arial; background:#000; color:#fff; }
-        header { padding:20px; text-align:center; background:#000; color:#fff; }
-        h1 { margin:0; }
-        .portfolio-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:15px; padding:20px; }
-        .portfolio-grid img { width:100%; height:220px; object-fit:cover; border-radius:10px; }
-        a { color:white; text-decoration:none; }
-        a:hover { text-decoration:underline; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Through a Lens - Portfolio</h1>
-        <a href="index.html">Back to Home</a>
-    </header>
-    <div class="portfolio-grid">
-        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
-        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e">
-        <img src="https://images.unsplash.com/photo-1519744346363-66a5cd877091">
-        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e">
-        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
-        <img src="https://images.unsplash.com/photo-1526178616361-1f1c2b30034d">
-        <img src="https://images.unsplash.com/photo-1499088513455-78ed88b7a5b4">
-        <img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0">
-        <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c">
-    </div>
-</body>
-</html>
